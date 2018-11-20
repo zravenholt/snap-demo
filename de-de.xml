@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [<!ENTITY appname "must echo through">]>
+<resources custom-attribute="must-be-present-in-translated-file">
+    <string name="key-1">Der braune   Fuchs sprang [[quick]]   über den faulen Hund.</string>
+    <string name="key-2">Sie sehen Geschenk Pferd \n Im Mund</string>
+    <!-- Provide context for linguists as comments in the source file -->
+    <string name="account_activation">Aktivieren Sie jetzt Ihr Konto!</string>
+    <plurals name="key-plural-1">
+        <item quantity="one">Ich habe dir schon %d Zeit gesagts</item>
+        <item quantity="other">Ich habe dir schon %d Zeit gesagts</item>
+    </plurals>
+    <string-array name="day_of_week">
+        <!-- First day of the week -->        <item>Montag ist der erste Tag</item>
+        <item>der Rest</item>
+    </string-array>
+    <string name="key-0"></string>
+</resources>
