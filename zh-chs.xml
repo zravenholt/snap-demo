@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [<!ENTITY appname "must echo through">]>
+<resources custom-attribute="must-be-present-in-translated-file">
+    <string name="key-1">該[[quick]]的棕色狐狸跳過了懶狗。</string>
+    <string name="key-2">你不有所思\n在嘴裡</string>
+    <!-- Provide context for linguists as comments in the source file -->
+    <string name="account_activation">現在激活您的帳戶！</string>
+    <plurals name="key-plural-1">
+        <item quantity="other">我已經告訴過你%d時間</item>
+    </plurals>
+    <string-array name="day_of_week">
+        <!-- First day of the week -->        <item>週一是第一天</item>
+        <item>其餘的部分</item>
+    </string-array>
+    <string name="key-0"></string>
+</resources>
